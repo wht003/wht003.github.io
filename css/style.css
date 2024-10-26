@@ -1,0 +1,34 @@
+/* type selectors - group selectors */
+
+/* Stel het lettertype voor de pagina in op Courier. Kies 
+als fallback een gepaste generieke font family.
+Zorg ervoor dat de achtergrond van de pagina de kleur lightgray krijgt. */
+body {
+    font-family: Courier, monospace;
+}
+
+h2 {
+    color: #5614af;
+}
+
+p {
+    font-family: 'Comic Sans', sans-serif;
+}
+
+article,
+aside {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: #43af11;
+    text-decoration: none;
+}
+
+footer {
+    size: 0.8em;
+    background-color: darkgray;
+}
+
+/*De footer heeft een lettergrootte van 0.8em en achtergrondkleur darkgray*/
