@@ -56,3 +56,29 @@ img {
 footer {
     background-color: rgb(201, 197, 197);
 }
+
+div.t1 p {
+    background-color: greenyellow;
+    border-radius: 50%;
+
+    animation: t1-animatie 2s infinite linear;
+}
+
+div.t1 {
+    max-width: 100px;
+    margin-inline: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    align-items: center;
+}
+
+@keyframes t1-animatie {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
