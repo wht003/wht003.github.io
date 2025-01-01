@@ -1,0 +1,56 @@
+header h1 {
+    margin-inline: 30px;
+}
+
+body {
+    max-width: 1200px;
+    background-color: rgb(83, 83, 83);
+    margin: auto;
+}
+
+main {
+    text-align: center;
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    background-color: gray;
+    list-style: none;
+    gap: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    background-color: rgb(31 31 31);
+    color: antiquewhite;
+    padding: 3px;
+    padding-inline: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    gap: 5px;
+    max-width: 1200px;
+    justify-content: center;
+
+}
+
+img {
+    max-width: 45%;
+}
+
+footer {
+    background-color: rgb(201, 197, 197);
+}
